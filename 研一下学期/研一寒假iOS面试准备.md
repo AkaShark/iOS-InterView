@@ -56,6 +56,15 @@ NSURLProctor进行流量的转发，第三是和后市场车生活对接，在�
      * KVC 字典转模型 
 
 * atomic 一定是线程安全的么 [参考](https://www.jianshu.com/p/e286d2907bf7) 
+
+* NSTimer 使用注意事项 [NSTimer循环引用问题](https://juejin.cn/post/6844903968250789896)
+  [更详细的介绍了同时提出了解决方法 推荐使用的是新的API](https://www.jianshu.com/p/9f387abfb2e8)
+
+* 消息转发 [只看了图 但是挺详细的](https://juejin.cn/post/6844903522064924680) 
+
+* [iOS block里使用下划线调用实例变量会对self强引用的原因](https://www.jianshu.com/p/0fce66ba25d3)
+
+
   
 ### 三方库知识
 
@@ -130,6 +139,8 @@ public TreeNode buildTree(int[] preorder, int[] inorder) {
   
 * TCP三次握手四次挥手及time_wait状态解析
   [参考链接](https://blog.csdn.net/weixin_42250655/article/details/88659118)
+  
+* TCP和UDP [参考链接](https://blog.csdn.net/li_ning_/article/details/52117463)
 
 #### 操作系统
 
@@ -144,6 +155,12 @@ public TreeNode buildTree(int[] preorder, int[] inorder) {
     进程间切换代价大，线程间切换代价小
     进程拥有资源多，线程拥有资源少
     多个线程共享进程的资源
+    
+ * 常见的磁盘调度算法 [参考](https://blog.csdn.net/Jaster_wisdom/article/details/52345674)
+
+ 
+
+ 
 
 ## 参考面经部分
 
@@ -151,5 +168,4 @@ public TreeNode buildTree(int[] preorder, int[] inorder) {
 
 
 https://blog.csdn.net/weixin_42250655/article/details/88659118
-
 
